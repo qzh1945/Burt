@@ -1,0 +1,215 @@
+body
+{
+	background-color:#189aa1;
+	background-size:cover;
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-size:15px;
+	
+
+}
+/* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #content { width:67%; }
+    #navbar { width:30%; margin-left:3%;}  
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #content { width:100%; }
+    #navbar { width:100%; margin:0; border:none; }
+}
+div.heading
+{
+	width:1024px;
+	height:180px;
+	margin-left:auto;	
+	margin-right:auto;	
+	padding-left: 20px; 
+	background-color:#ed0e19;
+	
+	
+}
+div.links
+{
+	width:1024px;
+	height:60px;
+	margin-left:auto;	
+	margin-right:auto;
+	background-color:#d2d7f7;
+	padding-left: 20px; 
+	font-size:18px;
+	font-family: Georgia, Times, serif;
+}
+
+div.content
+{
+	width:1024px;
+	height:contain;
+	margin-left:auto;	
+	margin-right:auto;
+	background-color:#fff7ed;
+	padding-left: 20px; 
+	font-size:22px;
+	font-family: Arial, Helvetica, sans-serif;
+	color:#3c3c42;
+	background-color: rgba(255, 255, 255, .7);
+
+	
+
+}	
+div.admin
+{
+	width:1024;
+	height:contain;
+	margin-left:auto;	
+	margin-right:auto;
+	background-color:#cccccc;
+	padding-left: 20px; 
+	font-size:18px;
+	
+	
+}
+div.botto
+{	
+	width:1024px;
+	height:170px;
+	margin-left:auto;	
+	margin-right:auto;
+	
+	padding-left: 20px; 
+	font-size:12px;
+	font-style: bold;
+	background-color: rgba(255, 255, 255, .6);
+}
+div.icon
+{
+	width:1024px;
+	height:290px;
+	margin-left:auto;	
+	margin-right:auto;
+	background-color:opaque;
+	font-size:12px;
+	font-style: oblique;
+}	
+caption {
+    text-align: left;
+    font-family: small-caption;
+    margin-bottom: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Corben', Georgia, Times, serif;
+	color:#3c3c42;
+	
+}
+h7 {
+    font-family: 'Corben', Georgia, Times, serif;
+	color:#f7f0f0;
+	font-size:100px;
+	font-style: bold;
+}
+
+p, div {
+    font-family: 'Nobile', Helvetica, Arial, sans-serif;
+}
+.round {
+    border-radius: 50%;
+	}
+a {
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  width:1044px;
+  overflow: auto;
+  background-color: #ed0e19;
+  background-color: rgba(255, 255, 255, .4);
+}
+
+.navbar a {
+
+  float:left;
+  font-size: 22px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+   text-align: center;
+  overflow: auto;
+  
+}
+
+.dropdown .dropbtn {
+
+  font-size: 22px;
+  border: none;
+  outline: none;
+  color: white;
+   padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  text-align: center;
+  
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: blue;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
